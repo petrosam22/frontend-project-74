@@ -1,0 +1,56 @@
+.section11{
+    background-color: rgb(192 214 240 / 30%);
+    width:100%;
+ 
+}
+
+
+.section11-details{
+    text-align: center;
+    line-height: 1.6;
+    padding: 50px 0;
+
+  }
+
+  .section11-details>span{
+    color: #2a81ea;
+    font-size: 1.5rem;
+  }
+  .section11-details>h1{
+    color:#50658e;
+    font-weight: bold;
+
+  }
+
+  #cards{
+    box-shadow: 2px 2px 8px black;
+  }
+
+
+  .section11-container{
+    width: 80%;
+
+    padding-bottom: 60px;
+     margin:auto;
+
+  }
+
+
+
+  @media (max-width:1200px){
+    .section11-container {
+     
+      /* margin-left: 8px; */
+      margin:auto;
+  }
+  }
+
+  
+
+
+  @media (max-width:1000px){
+    .section11-container {
+     
+      margin-left: 20px;
+   }
+  }

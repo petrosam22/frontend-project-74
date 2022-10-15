@@ -1,0 +1,85 @@
+
+.steps-section{
+    text-align: -webkit-center;
+    background-color: rgb(192 214 240 / 30%);
+    padding: 76px 40px;
+
+
+}
+.steps-title{
+    font-size: 25px;
+    text-align: start;
+    margin-bottom: 31px;
+}
+.stpes-container{
+
+    box-shadow: 9px 6px 45px rgb(192 214 255 / 93%);
+    width: 82%;
+    text-align: -webkit-center;
+    background: white;
+}
+.container-fluid .row{
+text-align: start;
+}
+.steps-img{
+    width:70%;
+}
+
+/* .steps-section{
+    background-color: rgb(192 214 240 / 30%);
+    /* padding: 70px; */
+/* } */ 
+
+/* 
+.container-peter{
+    background-color: rgb(192 214 240 / 30%);
+     
+    padding: 77px;
+
+}
+.container-peter .row{
+        width: 85%;
+        margin: auto;
+        padding: 89px;
+        background: white;
+        border: 1px solid black; 
+} */
+/* .steps-section{
+    width: 85%;
+    margin: auto;
+    text-align: start;
+    box-shadow: 2px 2px 7px white;
+
+} 
+.steps-img{
+    width:80%;
+}
+.steps-row{
+    display: flex;
+    padding: 75px;
+    box-shadow: 2px 2px 7px;
+    background: white; 
+ }
+
+ .steps-section{
+    justify-content: center;
+ display: flex;
+  padding: 50px;
+ width: 100%;
+  background-color: rgb(192 214 240 / 30%);
+ } */
+
+/* container 
+
+ justify-content: center;
+ display: flex;
+  padding: 50px;
+ width: 100%;
+  background-color: rgb(192 214 240 / 30%);
+
+/* 
+row 
+display: flex;
+    padding: 75px;
+   
+    background: white;

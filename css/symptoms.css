@@ -1,0 +1,72 @@
+.section3{
+    width:85;
+    background: white;
+    
+ 
+}
+#icon1{
+    position: relative;
+    color: #2a81ea;
+    left: 57px;
+    font-size: 48px;
+}
+@media (max-width:1200px){
+     
+    #icon1{
+right:20px;
+left:0;
+position: relative;
+    }
+    .btn5{
+         flex-direction: column;
+         text-align: center;
+
+
+    }
+    
+}
+
+.section3 h2{
+    color: #2a81ea;
+    font-size:1.5rem;
+    line-height:1.6;
+}
+.section3 h1{
+    color: #50658e;
+    font-size:3rem;
+    line-height:1.6;
+}
+.img-symptoms{
+ 
+    background-color: rgb(192 214 240 / 30%);
+     
+    border-radius: 60px;
+    width: 110px; 
+}
+
+.btn5{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+#one{
+color: #2a81ea;
+}
+ 
+.btn5>button{
+    margin: 20px 0;
+    border: none;
+    color: white;
+    background: #2a81ea;
+    padding: 5px 24px;
+    height: 40px;
+    border-radius: 23px;
+    font-weight: bold;
+
+}
+.btn5 span{
+    font-weight: bold;
+}
+

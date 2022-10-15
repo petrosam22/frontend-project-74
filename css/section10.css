@@ -1,0 +1,85 @@
+.accordion {
+    background-color: #f7fafe;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    transition: 0.4s;
+  }
+  .hidden{
+    display: none;
+  }
+  
+  .active {
+     color: #2a81ea;
+   
+    
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+
+
+.btns-accord{
+  margin-bottom: 27px;
+  border: gray 1px solid;
+  background: #ffff;
+  padding: 15px 11px;
+  width: 61%;
+  text-align: start;
+}
+
+.btns-accord:hover{
+    color: #2a81ea;
+    border: 1px solid #2a81ea;
+}
+  .section10{
+    width: 85%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .section-deatails{
+    text-align: center;
+    line-height: 1.6;
+    padding-bottom: 50px;
+
+  }
+  .section-deatails>h2{
+    color: #2a81ea;
+  }
+  .section-deatails>h1{
+    color:#50658e;
+    font-weight: bold;
+
+  }
+
+
+  @media (max-width:1100px){
+    .btns-accord{
+      padding: 10px 7px;
+    width: 74%;
+    }
+    .section10 .row{
+      flex-direction: row-reverse;
+    }
+    .fa-solid,.fa{
+      position: relative;
+    left: 0;
+
+    }
+    .btns-accord>span{
+      position: relative;
+      right: 39px;
+    }
+  }

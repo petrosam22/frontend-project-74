@@ -1,0 +1,62 @@
+
+.section h2{
+    color: #2a81ea;
+    font-size:1.5rem;
+    line-height:1.6;
+}
+.section h1{
+    color: #50658e;
+    font-size:3rem;
+    line-height:1.6;
+}
+.card{
+border:none;
+box-shadow:0px 1px 3px white;
+}
+.container{
+    width: 80%;
+}
+
+@media (max-width:909px){
+    .section2{
+        width: 862px;
+    }
+    
+}
+
+
+.row{
+    justify-content: space-between;
+}
+.img-card{
+    width:100%;
+        background-color: rgb(192 214 240 / 30%);
+        padding:0 0;
+        border-bottom:5px solid #2a81ea;
+}
+.card-title{
+    color: #2a81ea;
+    margin-top:17px;
+    padding: 0px 12px;
+    font-size:1rem;
+}
+.card-text{
+    padding:0px 12px;
+}
+ .card-body{
+padding:0 0;
+} 
+.section2{
+    background-color: rgb(192 214 240 / 30%);
+}
+.btn4{
+    text-align:center
+}
+.btn4>button{
+    margin: 20px 0;
+    border: none;
+    color: white;
+    background: #2a81ea;
+    padding: 5px 24px;
+    border-radius: 23px;
+}

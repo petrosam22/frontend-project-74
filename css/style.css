@@ -1,0 +1,296 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ body{
+  /* background-color: rgb(192 214 240 / 30%); */
+  background-color:white;
+
+
+ }
+ /* start nav bar  */
+  .navAnchorColor{
+    color:yellow;
+    transition: 0.1s;
+      }  
+       
+nav{
+  
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    top: 0;
+   height:13vh;
+   z-index:99999;
+    
+   }
+.click{
+  padding: 10px 15px;
+  background-color: #2a81ea;
+  color: #ffff;
+  border-radius: 23px;
+  font-weight: bold;
+  margin-right: 28px;
+  cursor: pointer;
+}
+.click:hover{
+color:black;
+}
+label.logo{
+  font-size: 35px;
+  font-weight: bold;
+  color:#50658e;
+  padding-left: 100px;
+  line-height: 80px;
+
+
+}
+ul{
+  float: right;
+    padding-right: 80px;
+
+ }
+nav li{
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
+}
+nav a{
+  text-decoration: none;
+  color: #50658e;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  text-align: center;
+ 
+  font-weight:bold;
+}
+nav #icon {
+  color: gray;
+  font-size: 30px;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+
+}
+@media (max-width: 1048){
+  label.logo{
+    font-size: 32px;
+    padding-left: 60px;
+  }
+  nav>ul {
+    margin-right: 20px;
+
+  }
+  nav a{
+    font-size: 17px;
+  }
+}
+@media (max-width: 1200px){
+  nav #icon {
+    display: block;
+  }
+  nav ul{
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background: #ffff;
+    /* top: 80px; */
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    font-weight: bold;
+    border: 1px solid black;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+     /* position: fixed; */
+    /* width: 100%; */
+    background: #fff;
+    overflow: hidden;
+    top: 0;
+  }
+  
+  label.logo{
+    display:none;
+  }
+  .chang{
+    background:#3498db;
+  }
+nav li {
+  display: block;
+  margin:  30px 0 ;
+  line-height: 30px;
+}
+nav a{
+  font-size: 20px;
+
+}
+a:hover{
+  border: 1px solid black;
+  color: black;
+}
+nav ul.show{
+ left:0;
+ top:0;
+}
+
+}
+/* end navbar  */
+
+
+ /* start header  */
+.content{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:url(../img/shape-a.png);
+  width:100%;
+  background-color: rgb(192 214 240 / 30%);
+   margin:50px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+ 
+}
+
+.text{
+  margin-bottom: 90px;
+      width: 50%;
+      align-items: end;
+      margin-left: 7%;
+      line-height: 2;
+}
+
+
+.text p {
+  
+  color: gray;
+  font-weight: bold;}
+.content .img1 .header-img{
+  width: 90%;
+  height: 80vh;
+}
+.img1{
+  text-align: end;
+
+}
+
+
+.text .btn2{
+  
+  font-size: 17px;
+  padding: 8px 29px;
+  background: #717cff;
+  border: none;
+  border-radius: 10px;
+   color: white;
+  background-color:#2a81ea;
+}
+.text .btn1{
+  
+  
+  font-size: 17px;
+  padding: 8px 29px;
+  text-decoration: none;
+  border: none;
+  color: #2a81ea;
+}
+
+
+.covid{
+color:orangered;
+position: relative;
+    right: 31%;
+
+}
+.co{
+top: 118px;
+  left: 35%;
+flex-direction: column;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+ position: relative;
+} 
+.btns{
+margin-top:25px;
+display:flex;
+justify-content: space-between;
+
+}
+.deta{
+display:flex;
+justify-content:space-between;
+margin-top:25px;
+}
+.deta>span{
+color: gray;
+text-transform:uppercase;
+font-weight:bold;
+}
+.count{
+display:flex;
+justify-content:space-between;
+font-size:24px;
+
+}
+.count>span{
+color: black;
+text-transform:uppercase;
+font-weight:bold;
+
+}
+.head>span{
+color:#50658e;
+font-weight:bold;
+font-size:4.5rem;
+}
+.virus{
+
+color:#50658e;
+position: relative;
+    right: 32%;
+}
+.update{
+font-size:18px;
+color:gray;
+margin-top:20px;
+}
+
+
+
+#btn{
+  position: fixed;
+  left: 97%;
+  top: 93%;  
+  border-radius: 22px;
+    color: #2a81ea;
+    background-color: white;
+    padding: 0 10px;
+    z-index:9999999;
+
+}
+/* end header */
+
+@media (max-width: 1200px){
+  .covid{
+   right: 15%;
+   /* margin-right: 50px; */
+
+
+ }
+ .virus{
+  right: 15%;
+
+
+ } 
+  
+ 
+
+ }
