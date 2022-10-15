@@ -1,0 +1,23 @@
+.section8{
+    background-image: url(../img/shape-a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    background-color: #2766bb;
+    padding-top: 90px;
+}
+
+
+
+#section8-col {
+    background: #1b47a1;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: white;
+}
+#section8-p{
+    padding:30px 11px;
+}
+
+/* #1b47a1 */

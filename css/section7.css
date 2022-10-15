@@ -1,0 +1,36 @@
+.section7{
+     background-color: ghostwhite;
+    height: 100vh;
+ }
+.section-text{
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 10%;
+    padding-top: 70px;
+}
+.section-text>h1{
+    font-size: 2rem;
+
+}
+.section-text>p{
+    color:#2a81ea;
+    font-weight: bold;
+
+    
+}
+
+.section-details{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.section-details .details-photo{
+    width: 100px;
+    border-radius: 56px;
+}
+
+.details1>p{
+font-weight: bold;
+}
